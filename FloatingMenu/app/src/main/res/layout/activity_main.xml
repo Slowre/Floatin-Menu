@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/editOptionTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/floatingBtnEditEvent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toStartOf="@id/floatingBtnEditEvent"
+        android:text="Edit"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/updateOptionTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/floatingBtnUpdateEvent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toStartOf="@id/floatingBtnUpdateEvent"
+        android:text="Update"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/observationOptionTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/floatingBtnObservationEvent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toStartOf="@id/floatingBtnObservationEvent"
+        android:text="Observation"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/finishOptionTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/floatingBtnFinishEvent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toStartOf="@id/floatingBtnFinishEvent"
+        android:text="Finish"
+        android:visibility="gone"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingBtnEditEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="mini"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        app:srcCompat="@drawable/ic_edit_black_24dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingBtnUpdateEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="mini"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        app:srcCompat="@drawable/ic_update_black_24dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingBtnObservationEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="mini"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        app:srcCompat="@drawable/ic_observation_black_24dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingBtnFinishEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="mini"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        app:srcCompat="@drawable/ic_finish_black_24dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingBtnMenuEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/ic_menu_black_24dp" />
+
+</RelativeLayout>
